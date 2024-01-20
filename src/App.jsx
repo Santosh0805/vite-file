@@ -13,8 +13,6 @@ function App() {
       </div>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          <button onClick={() => setCount((const)=> count-1)}>
-          </button>
           count is {count}
         </button>
         <button>
